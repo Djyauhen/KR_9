@@ -1,0 +1,65 @@
+.btn {
+    --bs-btn-padding-x: 20px;
+}
+
+.container-position {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.accordion-body {
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.ui-icon, .ui-state-hover .ui-icon {
+    background-image: url(../images/icons/vector.png);
+    width: 20px;
+    height: 11px;
+}
+
+.ui-icon-active {
+    background-image: url(../images/icons/vector.png);
+    transform: rotate(180deg);
+    width: 20px;
+    height: 11px;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+    border: 1px solid transparent;
+}
+
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
+    border: 1px solid transparent;
+}
+
+.ui-accordion .ui-accordion-header {
+    border-radius: 10px;
+    display: block;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 16px;
+    padding: 25px;
+    background: #076BFF;
+    font-family: 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.ui-accordion .ui-accordion-header span {
+    position: absolute;
+    right: 30px;
+    top: 33px;
+}
+
+.ui-accordion .ui-accordion-header-active span {
+    position: absolute;
+    right: 30px;
+    top: 27px;
+}
